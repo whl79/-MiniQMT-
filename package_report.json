@@ -1,0 +1,634 @@
+{
+  "package_time": "2026-04-15 16:20:27",
+  "source_file": "C:/Users/y2036/Desktop/懂量化MiniQMT稳定版(新版)/懂量化MiniQMT稳定版(新版).py",
+  "output_path": "C:/Users/y2036/Desktop/懂量化MiniQMT稳定版(新版)",
+  "exe_path": "C:/Users/y2036/Desktop/懂量化MiniQMT稳定版(新版)\\dist\\懂量化MiniQMT稳定版(新版)\\懂量化MiniQMT稳定版(新版).exe",
+  "exe_size_mb": 20.07,
+  "options": {
+    "onedir": true,
+    "console": true,
+    "crash_fix": true
+  },
+  "code_analysis": {
+    "file_info": {},
+    "imports": {
+      "standard": [
+        {
+          "name": "warnings",
+          "base_name": "warnings",
+          "line": 2
+        },
+        {
+          "name": "sys",
+          "base_name": "sys",
+          "line": 4
+        },
+        {
+          "name": "json",
+          "base_name": "json",
+          "line": 5
+        },
+        {
+          "name": "os",
+          "base_name": "os",
+          "line": 6
+        },
+        {
+          "name": "time",
+          "base_name": "time",
+          "line": 7
+        },
+        {
+          "name": "datetime",
+          "base_name": "datetime",
+          "line": 8
+        },
+        {
+          "name": "threading",
+          "base_name": "threading",
+          "line": 9
+        },
+        {
+          "name": "random",
+          "base_name": "random",
+          "line": 10
+        },
+        {
+          "name": "re",
+          "base_name": "re",
+          "line": 31
+        },
+        {
+          "name": "datetime",
+          "base_name": "datetime",
+          "line": 2845
+        },
+        {
+          "name": "datetime",
+          "base_name": "datetime",
+          "line": 2937
+        },
+        {
+          "name": "datetime",
+          "base_name": "datetime",
+          "line": 4529
+        },
+        {
+          "name": "time",
+          "base_name": "time",
+          "line": 5670
+        },
+        {
+          "name": "re",
+          "base_name": "re",
+          "line": 9413
+        },
+        {
+          "name": "datetime",
+          "base_name": "datetime",
+          "line": 2405
+        },
+        {
+          "name": "threading",
+          "base_name": "threading",
+          "line": 3949
+        },
+        {
+          "name": "threading",
+          "base_name": "threading",
+          "line": 4234
+        },
+        {
+          "name": "re",
+          "base_name": "re",
+          "line": 4936
+        },
+        {
+          "name": "threading",
+          "base_name": "threading",
+          "line": 3795
+        },
+        {
+          "name": "threading",
+          "base_name": "threading",
+          "line": 4132
+        },
+        {
+          "name": "os",
+          "base_name": "os",
+          "line": 5262
+        },
+        {
+          "name": "traceback",
+          "base_name": "traceback",
+          "line": 5293
+        },
+        {
+          "name": "re",
+          "base_name": "re",
+          "line": 4972
+        },
+        {
+          "name": "traceback",
+          "base_name": "traceback",
+          "line": 5176
+        },
+        {
+          "name": "traceback",
+          "base_name": "traceback",
+          "line": 4902
+        },
+        {
+          "name": "threading",
+          "base_name": "threading",
+          "line": 5074
+        },
+        {
+          "name": "datetime",
+          "base_name": "datetime",
+          "line": 4104
+        },
+        {
+          "name": "traceback",
+          "base_name": "traceback",
+          "line": 5100
+        },
+        {
+          "name": "re",
+          "base_name": "re",
+          "line": 4747
+        },
+        {
+          "name": "datetime",
+          "base_name": "datetime",
+          "line": 4692
+        },
+        {
+          "name": "traceback",
+          "base_name": "traceback",
+          "line": 5083
+        }
+      ],
+      "third_party": [
+        {
+          "name": "numpy",
+          "base_name": "numpy",
+          "line": 11
+        },
+        {
+          "name": "pandas",
+          "base_name": "pandas",
+          "line": 12
+        },
+        {
+          "name": "requests",
+          "base_name": "requests",
+          "line": 13
+        },
+        {
+          "name": "PySide6.QtWidgets",
+          "base_name": "PySide6",
+          "line": 15
+        },
+        {
+          "name": "PySide6.QtCore",
+          "base_name": "PySide6",
+          "line": 22
+        },
+        {
+          "name": "PySide6.QtGui",
+          "base_name": "PySide6",
+          "line": 23
+        },
+        {
+          "name": "xtquant",
+          "base_name": "xtquant",
+          "line": 25
+        },
+        {
+          "name": "xtquant.xttrader",
+          "base_name": "xtquant",
+          "line": 26
+        },
+        {
+          "name": "xtquant.xttype",
+          "base_name": "xtquant",
+          "line": 27
+        },
+        {
+          "name": "xtquant",
+          "base_name": "xtquant",
+          "line": 28
+        },
+        {
+          "name": "PySide6.QtWidgets",
+          "base_name": "PySide6",
+          "line": 6831
+        },
+        {
+          "name": "PySide6.QtCore",
+          "base_name": "PySide6",
+          "line": 7459
+        },
+        {
+          "name": "PySide6.QtCore",
+          "base_name": "PySide6",
+          "line": 9273
+        },
+        {
+          "name": "requests",
+          "base_name": "requests",
+          "line": 9412
+        },
+        {
+          "name": "PySide6.QtWidgets",
+          "base_name": "PySide6",
+          "line": 10325
+        },
+        {
+          "name": "PySide6.QtWidgets",
+          "base_name": "PySide6",
+          "line": 7075
+        },
+        {
+          "name": "PySide6.QtCore",
+          "base_name": "PySide6",
+          "line": 7076
+        },
+        {
+          "name": "PySide6.QtWidgets",
+          "base_name": "PySide6",
+          "line": 10303
+        },
+        {
+          "name": "xtquant",
+          "base_name": "xtquant",
+          "line": 10458
+        },
+        {
+          "name": "PySide6.QtWidgets",
+          "base_name": "PySide6",
+          "line": 10461
+        },
+        {
+          "name": "PySide6.QtWidgets",
+          "base_name": "PySide6",
+          "line": 10486
+        },
+        {
+          "name": "PySide6.QtWidgets",
+          "base_name": "PySide6",
+          "line": 10493
+        },
+        {
+          "name": "PySide6.QtWidgets",
+          "base_name": "PySide6",
+          "line": 10470
+        },
+        {
+          "name": "PySide6.QtWidgets",
+          "base_name": "PySide6",
+          "line": 10474
+        }
+      ],
+      "local": [
+        {
+          "name": "talib",
+          "base_name": "talib",
+          "line": 550
+        },
+        {
+          "name": "concurrent.futures",
+          "base_name": "concurrent",
+          "line": 1928
+        },
+        {
+          "name": "concurrent.futures",
+          "base_name": "concurrent",
+          "line": 2590
+        },
+        {
+          "name": "talib",
+          "base_name": "talib",
+          "line": 432
+        },
+        {
+          "name": "talib",
+          "base_name": "talib",
+          "line": 469
+        },
+        {
+          "name": "talib",
+          "base_name": "talib",
+          "line": 520
+        }
+      ],
+      "optional": [
+        {
+          "name": "HP_formula",
+          "base_name": "HP_formula",
+          "line": 790
+        },
+        {
+          "name": "PySide6.QtWidgets",
+          "base_name": "PySide6",
+          "line": 10122
+        },
+        {
+          "name": "xtquant",
+          "base_name": "xtquant",
+          "line": 1243
+        },
+        {
+          "name": "xtquant",
+          "base_name": "xtquant",
+          "line": 1293
+        },
+        {
+          "name": "requests",
+          "base_name": "requests",
+          "line": 4935
+        },
+        {
+          "name": "xtquant",
+          "base_name": "xtquant",
+          "line": 10047
+        },
+        {
+          "name": "PySide6.QtWidgets",
+          "base_name": "PySide6",
+          "line": 10307
+        },
+        {
+          "name": "PySide6.QtWidgets",
+          "base_name": "PySide6",
+          "line": 10431
+        },
+        {
+          "name": "PySide6.QtWidgets",
+          "base_name": "PySide6",
+          "line": 10496
+        }
+      ]
+    },
+    "classes": [
+      {
+        "name": "TdxFormulaEngine",
+        "line": 33,
+        "bases": [],
+        "methods": 30
+      },
+      {
+        "name": "TechnicalIndicators",
+        "line": 558,
+        "bases": [],
+        "methods": 16
+      },
+      {
+        "name": "HPFormulaCompat",
+        "line": 713,
+        "bases": [],
+        "methods": 18
+      },
+      {
+        "name": "ConfigManager",
+        "line": 804,
+        "bases": [],
+        "methods": 7
+      },
+      {
+        "name": "StrategyManager",
+        "line": 996,
+        "bases": [],
+        "methods": 9
+      },
+      {
+        "name": "MyXtQuantTraderCallback",
+        "line": 1151,
+        "bases": [
+          "XtQuantTraderCallback"
+        ],
+        "methods": 9
+      },
+      {
+        "name": "Singleton",
+        "line": 1189,
+        "bases": [
+          "object"
+        ],
+        "methods": 1
+      },
+      {
+        "name": "Trader",
+        "line": 1197,
+        "bases": [
+          "Singleton"
+        ],
+        "methods": 11
+      },
+      {
+        "name": "JSONStorage",
+        "line": 1408,
+        "bases": [],
+        "methods": 5
+      },
+      {
+        "name": "HoldingManager",
+        "line": 1464,
+        "bases": [],
+        "methods": 6
+      },
+      {
+        "name": "TradeExecutor",
+        "line": 1531,
+        "bases": [],
+        "methods": 5
+      },
+      {
+        "name": "RiskManager",
+        "line": 1725,
+        "bases": [],
+        "methods": 7
+      },
+      {
+        "name": "PositionManager",
+        "line": 1835,
+        "bases": [],
+        "methods": 1
+      },
+      {
+        "name": "TradingSystem",
+        "line": 1843,
+        "bases": [],
+        "methods": 79
+      },
+      {
+        "name": "StrategyLoadWorker",
+        "line": 4923,
+        "bases": [
+          "QThread"
+        ],
+        "methods": 2
+      },
+      {
+        "name": "TradingWorker",
+        "line": 5024,
+        "bases": [
+          "QThread"
+        ],
+        "methods": 4
+      },
+      {
+        "name": "DownloadWorker",
+        "line": 5223,
+        "bases": [
+          "QThread"
+        ],
+        "methods": 3
+      },
+      {
+        "name": "StrategyDialog",
+        "line": 5300,
+        "bases": [
+          "QDialog"
+        ],
+        "methods": 3
+      },
+      {
+        "name": "StrategyPlanDialog",
+        "line": 5396,
+        "bases": [
+          "QDialog"
+        ],
+        "methods": 4
+      },
+      {
+        "name": "GradientFrame",
+        "line": 5562,
+        "bases": [
+          "QFrame"
+        ],
+        "methods": 3
+      },
+      {
+        "name": "TradingConfigWidget",
+        "line": 5582,
+        "bases": [
+          "QWidget"
+        ],
+        "methods": 33
+      },
+      {
+        "name": "NumericTableWidgetItem",
+        "line": 7854,
+        "bases": [
+          "QTableWidgetItem"
+        ],
+        "methods": 2
+      },
+      {
+        "name": "TradingMainWidget",
+        "line": 7887,
+        "bases": [
+          "QWidget"
+        ],
+        "methods": 23
+      },
+      {
+        "name": "TradingRightWidget",
+        "line": 9387,
+        "bases": [
+          "QWidget"
+        ],
+        "methods": 13
+      },
+      {
+        "name": "MainWindow",
+        "line": 10526,
+        "bases": [
+          "QMainWindow"
+        ],
+        "methods": 12
+      },
+      {
+        "name": "ReverseRepoWorker",
+        "line": 7461,
+        "bases": [
+          "QThread"
+        ],
+        "methods": 2
+      },
+      {
+        "name": "SellWorker",
+        "line": 9275,
+        "bases": [
+          "QThread"
+        ],
+        "methods": 2
+      }
+    ],
+    "functions": [],
+    "resources": [
+      "D:\\new_tdx\\T0002\\blocknew\\zxg88.blk",
+      "trading_records_{today_date}.json",
+      "trading_records_{date_str}.json",
+      "trading_config.json",
+      "trading_strategies.json",
+      "trading_log_{timestamp}.txt",
+      ")}.txt",
+      "window_settings.json"
+    ],
+    "gui_components": [],
+    "dependencies": {
+      "required": [
+        {
+          "name": "numpy",
+          "base_name": "numpy",
+          "line": 11
+        },
+        {
+          "name": "pandas",
+          "base_name": "pandas",
+          "line": 12
+        },
+        {
+          "name": "requests",
+          "base_name": "requests",
+          "line": 13
+        },
+        {
+          "name": "PySide6.QtWidgets",
+          "base_name": "PySide6",
+          "line": 15
+        },
+        {
+          "name": "xtquant",
+          "base_name": "xtquant",
+          "line": 25
+        }
+      ],
+      "optional": [
+        {
+          "name": "HP_formula",
+          "base_name": "HP_formula",
+          "line": 790
+        },
+        {
+          "name": "PySide6.QtWidgets",
+          "base_name": "PySide6",
+          "line": 10122
+        },
+        {
+          "name": "xtquant",
+          "base_name": "xtquant",
+          "line": 1243
+        },
+        {
+          "name": "requests",
+          "base_name": "requests",
+          "line": 4935
+        }
+      ]
+    }
+  }
+}
